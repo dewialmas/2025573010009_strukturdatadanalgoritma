@@ -11,7 +11,6 @@ const dataMahasiswa = [
 function hitungStatistik(arrMahasiswa) {
     const totalMhs = arrMahasiswa.length;
     
-    // Mencari rata-rata, tertinggi, dan terendah dalam satu kali jalan
     const stats = arrMahasiswa.reduce((acc, mhs) => {
         return {
             totalNilai: acc.totalNilai + mhs.nilai,
