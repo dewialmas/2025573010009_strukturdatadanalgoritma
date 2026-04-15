@@ -22,11 +22,11 @@ function balikString(str) {
 console.log("=== UJI COBA REKURSIF ===");
 
 console.log("--- Fungsi Pangkat ---");
-console.log(`2 pangkat 3 = ${pangkat(2, 3)}`); // Hasil: 8
-console.log(`5 pangkat 2 = ${pangkat(5, 2)}`); // Hasil: 25
-console.log(`10 pangkat 0 = ${pangkat(10, 0)}`); // Hasil: 1
+console.log(`2 pangkat 3 = ${pangkat(2, 3)}`); 
+console.log(`5 pangkat 2 = ${pangkat(5, 2)}`); 
+console.log(`10 pangkat 0 = ${pangkat(10, 0)}`); 
 
 console.log("\n--- Fungsi Balik String ---");
-console.log(`'halo' dibalik menjadi: '${balikString('halo')}'`); // Hasil: olah
+console.log(`'halo' dibalik menjadi: '${balikString('halo')}'`); 
 console.log(`'javascript' dibalik menjadi: '${balikString('javascript')}'`);
 console.log(`'kodok' dibalik menjadi: '${balikString('kodok')}'`);
